@@ -12,7 +12,7 @@ jQuery(document).ready(function(){
         $("#tabs li:Precio").attr("id","current");
         $("#content div:Precio").fadeIn();
  
-    $('#tabs a').click(function(e) {
+    $('#tabs a').click(function(e)){
         e.preventDefault();
         $("#content div").hide();
         $("#tabs li").attr("id","");
