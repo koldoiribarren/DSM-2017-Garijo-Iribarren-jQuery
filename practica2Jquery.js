@@ -1,23 +1,19 @@
 jQuery(document).ready(function(){
 
-	$('#ARM').on('click',function(){
-		var prueba= $('<p> EEEOoooooooooooooo </p>');
-		$('.jumbotron').append(prueba);
-
-	});
-
-
-
-	 $("#content div").hide();
-        $("#tabs li:Precio").attr("id","current");
-        $("#content div:Precio").fadeIn();
+	$("#content div").hide();
+    $("#tabs li:Precio").attr("id","current");
+    $("#content div:Precio").fadeIn();
  
-    $('#tabs a').click(function(e)){
+    $('#tabs a').click(function()){
         e.preventDefault();
         $("#content div").hide();
         $("#tabs li").attr("id","");
         $(this).parent().attr("id","current");
         $('#' + $(this).attr('title')).fadeIn();
+        alert("bullshit");
     });
 
+    $("#Genuino_ZERO_buy").bind('click',function(){
+    
+    });
 });
