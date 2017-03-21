@@ -73,10 +73,26 @@ p.section{font-weight: 600}
 
 #divPestanas
 {
-
 height: 500px;
 background: #ddd;
-  
+}
 
+.main_image{
+width:100%;
+max-width:450px;
+}
 
+.small_1{
+width:100%;
+max-width:150px;
+}
+
+.small_2{
+width:100%;
+max-width:150px;
+}
+
+.small_3{
+width:100%;
+max-width:150px;
 }

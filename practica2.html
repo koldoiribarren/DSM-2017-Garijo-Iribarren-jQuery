@@ -14,7 +14,6 @@
 </head>
 
 <body>
-	<h1></h1>
 <div class="container">
 	<p>The Unofficial Arduino/Genuino Store</p>	
 </div>
@@ -27,7 +26,7 @@
 	      <div class="thumbnail">
 	        <img src="img/genuino01.jpeg" width="400" height="300" data-precio='30'>
 	        <p class="section">Genuino ZERO</p>
-	        <button id="Genuino_ZERO_buy">Comprar</button>
+	        <button class="buy">Comprar</button>
 	      </div>
 	    </div>
 
@@ -35,7 +34,7 @@
 	      <div class="thumbnail">
 	        <img src="img/arduino11.jpeg" width="400" height="300" data-precio='40'>
 	        <p class="section">Arduino UNO</p>
-	        <button id="Arduino_UNO_buy">Comprar</button>
+	        <button class="buy">Comprar</button>
 	      </div>
 	    </div>
 
@@ -43,7 +42,7 @@
 	      <div class="thumbnail">
 	        <img src="img/genuino21.jpeg" width="400" height="300" data-precio='50'>
 	        <p class="section">Genuino 101</p>
-	        <button id="Genuino_101_buy">Comprar</button>
+	        <button class="buy">Comprar</button>
 	      </div>
 	    </div>
 	</div>
@@ -51,14 +50,34 @@
 	<div class="row">
 		<div class="col-md-offset-3 col-md-6" id="divPestanas">
 			
-				<ul id="tabs">
-				    <li><a href="#" title="tab1" id="precio">Precio</a></li>
-				    <li><a href="#" title="tab2" id="imagen">Imagen</a></li>
-				    <li><a href="#" title="tab3" id="descripcion">Descripción</a></li>
-				</ul>
+			<ul id="tabs">
+			    <li><a href="#" title="tab1" id="descripcion">Descripción</a></li>
+			    <li><a href="#" title="tab2" id="imagen">Imagen</a></li>
+			    <li><a href="#" title="tab3" id="precio">Precio</a></li>
+			</ul>
 
-				<div class="prueba"></div>
+			<div class="descripcion_panel">
+				<h5> Características </h5>
+				<div></div>
+			</div>
 
+			<div class="imagen_panel col-md-12">
+				<div class="main_image col-md-12"> <img class="main_image" src=""> </div>
+				<div class="small_1 col-md-4"> <img class="small_1" src=""> </div>
+				<div class="small_2 col-md-4"> <img class="small_2" src=""> </div>
+				<div class="small_3 col-md-4"> <img class="small_3" src=""> </div>
+			</div>
+
+			<div class="precio_panel">
+				<div class="precio_por_unidad"></div>
+				<input class="unidades" value=100 />
+				<button class="actualizar_carrito">Añadir</button>
+			</div>
+
+			<div class="carrito">
+				<p>Total: 0 €</p>
+			</div>
+			
 		</div>
 	</div>
 
