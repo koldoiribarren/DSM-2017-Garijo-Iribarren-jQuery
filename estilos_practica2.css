@@ -57,6 +57,7 @@ p.section{font-weight: 600}
 #tabs #current a,
 #tabs #current a::after{
   background: #fff;
+  background-image: linear-gradient(to bottom, #ddd, #fff);
   z-index: 3;
 }
  
@@ -74,12 +75,12 @@ p.section{font-weight: 600}
 #divPestanas
 {
 height: 500px;
-background: #ddd;
+background: #fff;
 }
 
 .main_image{
 width:100%;
-max-width:450px;
+max-width:400px;
 }
 
 .small_1{
